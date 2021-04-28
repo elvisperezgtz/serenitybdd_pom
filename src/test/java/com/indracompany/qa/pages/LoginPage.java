@@ -13,11 +13,11 @@ import org.openqa.selenium.WebDriver;
 @DefaultUrl("https://www.phptravels.net/login")
 public class LoginPage extends PageObject {
 
-    @FindBy(id = "identifierId")
+    @FindBy(name = "username")
     private WebElementFacade emailField;
     @FindBy(name="password")
     private WebElementFacade passwordField;
-    @FindBy(xpath="//button[@type='button' and contains(.,'Siguiente')]")
+    @FindBy(xpath="//button[text()='Login']")
     private WebElementFacade buttonLogin;
 
 

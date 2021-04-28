@@ -19,14 +19,12 @@ public class LoginSteps {
     LoginServices loginServices = new LoginServices(getDriver());
     @Given("He is on the login page")
     public void heIsOnTheLoginPage() {
-        driver.get("https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin");
+        driver.get("https://www.phptravels.net/login");
        
     }
 
     @When("he logs in whit her credentials")
     public void heLogsInWhitHerCredentials(List<Credential> credentials) {
-//        InputFormDemoServices demoPage = new InputFormDemoServices(getDriver());
-//        demoPage.enterPersonalInformation("Elvis", "perez", "elvisperez@gmail.com");
 
         loginServices.login(credentials.get(0).getUsername(), credentials.get(0).getPassword());
 

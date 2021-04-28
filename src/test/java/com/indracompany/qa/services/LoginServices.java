@@ -11,9 +11,7 @@ public class LoginServices extends LoginPage {
     }
 
     public void login(String username, String password){
-        enter(username).into(getEmailField());
-        getButtonLogin().click();
-        enter(password).into(getPasswordField());
+        fillTheForm(username, password);
         getButtonLogin().click();
     }
     public void fillTheForm(String username, String password){

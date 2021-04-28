@@ -6,8 +6,8 @@ Feature: Login
   Scenario: Login successful
     Given He is on the login page
     When he logs in whit her credentials
-      | username    | password |
-      | tigoindra11 | 14565471 |
+      | username              | password |
+      | pruebaindra@gmail.com | 84094986 |
     Then he should be able to see the system greeting
 
 
