@@ -4,11 +4,21 @@ com/indracompany/qa/models/Credential.java
  com.indracompany.qa.models.Credential
 com/indracompany/qa/runners/LoginRunner.java
  com.indracompany.qa.runners.LoginRunner
-com/indracompany/qa/services/InputFormDemoServices.java
- com.indracompany.qa.services.InputFormDemoServices
+com/indracompany/qa/runners/FormRunner.java
+ com.indracompany.qa.runners.FormRunner
 com/indracompany/qa/pages/LoginPage.java
  com.indracompany.qa.pages.LoginPage
-com/indracompany/qa/services/LoginServices.java
- com.indracompany.qa.services.LoginServices
+com/indracompany/qa/models/User.java
+ com.indracompany.qa.models.User
+com/indracompany/qa/actions/InputFormDemoServices.java
+ com.indracompany.qa.actions.InputFormDemoServices
 com/indracompany/qa/steps/LoginSteps.java
  com.indracompany.qa.steps.LoginSteps
+com/indracompany/qa/actions/LoginServices.java
+ com.indracompany.qa.actions.LoginServices
+com/indracompany/qa/actions/FormularioRegistroActions.java
+ com.indracompany.qa.actions.FormularioRegistroActions
+com/indracompany/qa/pages/FormularioRegistroPage.java
+ com.indracompany.qa.pages.FormularioRegistroPage
+com/indracompany/qa/steps/FormSteps.java
+ com.indracompany.qa.steps.FormSteps

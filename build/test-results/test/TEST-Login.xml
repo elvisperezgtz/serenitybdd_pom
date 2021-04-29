@@ -1,70 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Login" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-04-28T21:51:47" hostname="DESKTOP-MK1T9B1" time="30.941">
+<testsuite name="Login" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-29T21:51:09" hostname="DESKTOP-MK1T9B1" time="9.135">
   <properties/>
-  <testcase name="Login successful" classname="Login" time="11.133">
-    <failure message="org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button style=&quot;font-size: 16px;&quot; type=&quot;submit&quot; class=&quot;btn btn-primary btn-lg btn-block loginbtn&quot;&gt;...&lt;/button&gt; is not clickable at point (978, 446). Other element would receive the click: &lt;img alt=&quot;Chat now&quot; src=&quot;https://cdn.livechatinc.com/cloud/?uri=https%3A%2F%2Flivechat.s3.amazonaws.com%2Fdefault%2FeyeCatchers%2Fnew108.gif&quot; style=&quot;display: block; border: 0px; float: right;&quot;&gt;&#10;  (Session info: chrome=89.0.4389.128)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-MK1T9B1', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5af18b14486aece19d889f16c649e0d8" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button style=&quot;font-size: 16px;&quot; type=&quot;submit&quot; class=&quot;btn btn-primary btn-lg btn-block loginbtn&quot;&gt;...&lt;/button&gt; is not clickable at point (978, 446). Other element would receive the click: &lt;img alt=&quot;Chat now&quot; src=&quot;https://cdn.livechatinc.com/cloud/?uri=https%3A%2F%2Flivechat.s3.amazonaws.com%2Fdefault%2FeyeCatchers%2Fnew108.gif&quot; style=&quot;display: block; border: 0px; float: right;&quot;&gt;
-  (Session info: chrome=89.0.4389.128)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-MK1T9B1', ip: '192.168.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\ADMINI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 5af18b14486aece19d889f16c649e0d8
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1231)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.thucydides.core.annotations.locators.AbstractSingleItemHandler.invoke(AbstractSingleItemHandler.java:45)
-	at com.sun.proxy.$Proxy26.click(Unknown Source)
-	at com.indracompany.qa.services.LoginServices.login(LoginServices.java:15)
-	at com.indracompany.qa.steps.LoginSteps.heLogsInWhitHerCredentials(LoginSteps.java:29)
-	at ✽.he logs in whit her credentials(src/test/resources/features/login.feature:8)
-</failure>
-  </testcase>
-  <testcase name="Login failure" classname="Login" time="7.449"/>
-  <testcase name="Login with wrong email field" classname="Login" time="12.34"/>
-  <system-out><![CDATA[16:51:48.045 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:51:48.045 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:51:54.147 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
-16:51:54.148 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
-16:51:54.550 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\343eba1de03eaa76e93302a3b11cdbb8c58e41ec38d477766598ba17fadc437c.png
-16:51:54.551 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5526574464203290395
-16:51:54.551 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\343eba1de03eaa76e93302a3b11cdbb8c58e41ec38d477766598ba17fadc437c.png
-16:51:57.296 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\2c56d461d37a8d76ae0f6739e2ac46ac7d2bf32dd7875273a2b1cc9a2a289b83.png
-16:51:57.296 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-5206598064338570881
-16:51:57.296 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\2c56d461d37a8d76ae0f6739e2ac46ac7d2bf32dd7875273a2b1cc9a2a289b83.png
-16:51:58.152 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
-
-TEST FAILED WITH ERROR: Login successful
----------------------------------------------------------------------
-16:51:58.154 [Test worker] DEBUG net.thucydides.core.steps.ConsoleLoggingListener - RELATED ISSUES: 
-16:51:58.231 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP When he logs in whit her credentials | username | password | | pruebaindra@gmail.com | 84094986 |
-16:51:58.231 [Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element click intercepted: Element <button style="font-size: 16px;" type="submit" class="btn btn-primary btn-lg btn-block loginbtn">...</button> is not clickable at point (978, 446). Other element would receive the click: <img alt="Chat now" src="https://cdn.livechatinc.com/cloud/?uri=https%3A%2F%2Flivechat.s3.amazonaws.com%2Fdefault%2FeyeCatchers%2Fnew108.gif" style="display: block; border: 0px; float: right;">
-16:51:58.535 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:51:58.536 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:52:03.656 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\5f243ba8d7918d1864502e836952a28245c5494aa63791c581f39abe19793b4f.png
-16:52:04.908 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\6ee64a3ed336a10b55f27cfcc67d98ab929ff14a6e6a8405ec478a11dc34ec33.png
-16:52:04.909 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8835493553437679612
-16:52:04.909 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\6ee64a3ed336a10b55f27cfcc67d98ab929ff14a6e6a8405ec478a11dc34ec33.png
-16:52:05.695 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+  <testcase name="Register" classname="Login" time="9.135"/>
+  <system-out><![CDATA[16:51:10.175 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+16:51:10.175 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+16:51:14.597 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Opening darkroom
+16:51:14.598 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line starting up
+16:51:14.923 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\2e8ab8ae8d28f8039c53067875cc2816ea4b04011f4c423f1269cd952880d56a.png
+16:51:14.924 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2230306174407237456
+16:51:14.924 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\2e8ab8ae8d28f8039c53067875cc2816ea4b04011f4c423f1269cd952880d56a.png
+16:51:17.658 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\cd886cd647f76f72081ebf1dc999ed740d5753da90b211ebd56c72d43e43f05b.png
+16:51:18.475 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
   _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
  (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
@@ -72,53 +18,17 @@ TEST FAILED WITH ERROR: Login successful
  (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
         /_/                                                                
 
-TEST PASSED: Login failure
-----------------------------------------------------------------------------
-16:52:06.016 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
-16:52:06.016 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors..., --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
-16:52:16.244 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\b3ad04178c4b6ed57edbcf037988f4fa2abf83104e80558cfff04b20d5f8f345.png
-16:52:16.244 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-2753755508570346840
-16:52:16.245 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\b3ad04178c4b6ed57edbcf037988f4fa2abf83104e80558cfff04b20d5f8f345.png
-16:52:17.221 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Send negative for processing for C:\REPO\estudio\pom_serenity\target\site\serenity\a4406d845ffa2a9334c74f6a3c7ddea3b5ae9344929dda67f0fbc054383ef6d4.png
-16:52:17.221 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Processing screenshot image in /var/screenshots/screenshot-8837277267508967282
-16:52:17.221 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Saving screenshot to C:\REPO\estudio\pom_serenity\target\site\serenity\a4406d845ffa2a9334c74f6a3c7ddea3b5ae9344929dda67f0fbc054383ef6d4.png
-16:52:18.044 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
-        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
-  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
- (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
-  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
- (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
-        /_/                                                                
-
-TEST PASSED: Login with wrong email field
+TEST PASSED: Register
 ----------------------------------------------------------------------------
 ]]></system-out>
-  <system-err><![CDATA[Apr 28, 2021 4:51:47 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Apr 29, 2021 4:51:09 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 3578
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 48242
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1619646709.991][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Apr 28, 2021 4:51:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 28, 2021 4:51:58 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 1722
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1619646719.694][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Apr 28, 2021 4:51:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Apr 28, 2021 4:52:05 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 24906
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1619646727.162][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
-Apr 28, 2021 4:52:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1619733071.959][WARNING]: This version of ChromeDriver has not been tested with Chrome version 89.
+Apr 29, 2021 4:51:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

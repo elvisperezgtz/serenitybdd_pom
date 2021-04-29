@@ -1,7 +1,7 @@
 package com.indracompany.qa.steps;
 
 import com.indracompany.qa.models.Credential;
-import com.indracompany.qa.services.LoginServices;
+import com.indracompany.qa.actions.LoginServices;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -19,7 +19,7 @@ public class LoginSteps {
     LoginServices loginServices = new LoginServices(getDriver());
     @Given("He is on the login page")
     public void heIsOnTheLoginPage() {
-        driver.get("https://www.phptravels.net/login");
+        driver.get("https://www.seleniumeasy.com/test/input-form-demo.html");
        
     }
 
